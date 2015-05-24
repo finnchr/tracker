@@ -1,0 +1,48 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+
+
+    <PreferenceCategory
+        android:title="@string/pref_gps_preferences">
+
+        <!--
+        <EditTextPreference
+            android:key="@string/pref_gps_min_time_key"
+            android:defaultValue="60"
+            android:title="@string/pref_gps_min_time_title"
+            android:summary="@string/pref_gps_min_time_summary"
+            android:dialogTitle="@string/pref_gps_min_time_title" />
+        -->
+
+        <ListPreference
+            android:key="@string/pref_gps_time_interval_key"
+            android:title="@string/pref_gps_time_interval_title"
+            android:dialogTitle="@string/pref_gps_time_interval_title"
+            android:entries="@array/pref_gps_time_interval_entries"
+            android:entryValues="@array/pref_gps_time_interval_values"
+            />
+
+        <!--
+        <EditTextPreference
+            android:key="@string/pref_gps_min_distance_key"
+            android:defaultValue="10"
+            android:title="@string/pref_gps_min_distance_title"
+            android:summary="@string/pref_gps_min_distance_summary"
+            android:dialogTitle="@string/pref_gps_min_distance_title" />
+        -->
+
+        <ListPreference
+            android:key="@string/pref_gps_distance_interval_key"
+            android:title="@string/pref_gps_distance_interval_title"
+            android:dialogTitle="@string/pref_gps_distance_interval_title"
+            android:entries="@array/pref_gps_distance_interval_entries"
+            android:entryValues="@array/pref_gps_distance_interval_values"
+            />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

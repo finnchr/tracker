@@ -1,0 +1,100 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Tracker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_new_track">New track</string>
+
+    <string name="content_authority">com.finnchristian.tracker.provider</string>
+
+    <string name="create_track_dialog_title">New track</string>
+    <string name="create_track_dialog_message">Enter name of the new track</string>
+    <string name="create_track_dialog_cancel_button">Cancel</string>
+
+    <string name="detail_created_label">Created:</string>
+    <string name="detail_runkeeper_label">RunKeeper:</string>
+    <string name="detail_distance_label">Distance:</string>
+    <string name="detail_highest_altitude_label">Max altitude:</string>
+    <string name="detail_lowers_altitude_label">Min altitude:</string>
+    <string name="detail_points_label">Number of points:</string>
+    <string name="detail_duration_label">Duration:</string>
+    <string name="detail_start_tracking_button">Start tracking</string>
+    <string name="detail_stop_tracking_button">Stop tracking</string>
+    <string name="action_stop_service">Stop tracking service</string>
+    <string name="delete_track_title">Delete %1$s?</string>
+    <string name="delete_track_delete_button">Delete</string>
+
+    <string name="detail_altitude_value"><xliff:g id="altitude">%1.0f</xliff:g> meters (AMSL)</string>
+    <string name="detail_duration_value"><xliff:g id="hours">%1$d</xliff:g> hours, <xliff:g id="hours">%2$d</xliff:g> minutes</string>
+    <string name="detail_distance_meters_value"><xliff:g id="meters">%1.2f</xliff:g> meters</string>
+    <string name="detail_distance_km_value"><xliff:g id="km">%1.2f</xliff:g> km</string>
+
+    <string name="date_format_short"><xliff:g id="date">%1$td</xliff:g>.<xliff:g id="month">%1$tm</xliff:g>.<xliff:g id="year">%1$tY</xliff:g></string>
+    <string name="date_format_long"><xliff:g id="day">%1$tA</xliff:g> <xliff:g id="date">%1$td</xliff:g>.<xliff:g id="month">%1$tm</xliff:g>.<xliff:g id="year">%1$tY</xliff:g></string>
+    <string name="date_and_time_format"><xliff:g id="date">%1$td</xliff:g>.<xliff:g id="month">%1$tm</xliff:g>.<xliff:g id="year">%1$tY</xliff:g> @ <xliff:g id="hours">%1$tH</xliff:g>:<xliff:g id="minutes">%1$tM</xliff:g></string>
+
+    <string name="default_track_name">Track <xliff:g id="date">%1$td</xliff:g>.<xliff:g id="month">%1$tm</xliff:g>.<xliff:g id="date">%1$tY</xliff:g></string>
+
+
+    <string name="dialog_title_edit_track_title">Edit track</string>
+    <string name="dialog_button_ok">OK</string>
+
+
+    <!-- Tracker service -->
+    <string name="service_title_text">Tracker service</string>
+    <string name="service_context_text">Tracking %1$s</string>
+    <string name="service_context_text_default">Currently not tracking</string>
+
+
+    <!-- Preferences -->
+    <string name="pref_gps_preferences">GPS preferences</string>
+
+    <string name="pref_gps_time_interval_key">pref_gps_time_interval</string>
+    <string name="pref_gps_time_interval_defaultValue">30</string>
+    <string name="pref_gps_time_interval_title">Interval between location updates</string>
+
+    <string name="pref_gps_distance_interval_key">pref_gps_distance_interval</string>
+    <string name="pref_gps_distance_interval_defaultValue">10</string>
+    <string name="pref_gps_distance_interval_title">Distance between location updates</string>
+
+    <string name="pref_runkeeper_access_token_key">pref_runkeeper_access_token_key</string>
+    <string name="pref_runkeeper_token_type_key">pref_runkeeper_token_type_key</string>
+
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_main">Tracker</string>
+    <string name="title_activity_trackdetails">Details</string>
+    <string name="action_export_gpx">Export to GPX</string>
+
+    <string name="track_details_tabs_info">Information</string>
+    <string name="track_details_tabs_map">Map</string>
+    <string name="title_activity_ut">UtActivity</string>
+    <string name="action_search_tracks">Search for tracks</string>
+    <string name="detail_post_fitness_activity_to_runkeeper_button">RunKeeper</string>
+
+    <!-- RunKeeper -->
+    <string name="runkeeper_authorization_actionbar_title">RunKeeper authorization</string>
+    <string name="runkeeper_authorization_dialog_title">Authorization</string>
+    <string name="runkeeper_authorization_dialog_access_denied">Access denied</string>
+    <string name="runkeeper_authorization_dialog_close">Close</string>
+    <string name="uri_runkeeper_api_base">https://api.runkeeper.com</string>
+    <string name="uri_runkeeper_api_user">https://api.runkeeper.com/user</string>
+    <string name="uri_runkeeper_authorize">https://runkeeper.com/apps/authorize</string>
+    <string name="uri_runkeeper_token">https://runkeeper.com/apps/token</string>
+    <string name="uri_runkeeper_redirect">https://localhost</string>
+
+    <string name="toast_successfully_uploaded_track_to_runkeeper">Track successfully uploaded to RunKeeper</string>
+    <string name="toast_failed_to_upload_track_to_runkeeper">Failed to upload track to RunKeeper</string>
+    <string name="action_share_track">Share track</string>
+
+    <!-- GPX -->
+    <string name="gpx_creator">Tracker</string>
+    <string name="gpx_version">1.0</string>
+    <string name="gpx_author_name">Finn Chr. Reusch</string>
+    <string name="gpx_author_email">fcreusch@gmail.com</string>
+    <string name="dialog_no_network_connection_title">Network</string>
+    <string name="dialog_no_network_connection_message">No internet connection available. Please enable the internet connection on to upload track to RunKeeper.</string>
+    <string name="dialog_no_network_connection_turn_on_button">Turn on</string>
+    <string name="dialog_no_network_connection_close_button">Close</string>
+
+
+</resources>

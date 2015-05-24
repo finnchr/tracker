@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_gps_distance_interval_entries">
+        <item>1 meter</item>
+        <item>5 meters</item>
+        <item>10 meters</item>
+        <item>20 meters</item>
+        <item>50 meters</item>
+        <item>100 meters</item>
+        <item>200 meters</item>
+        <item>500 meters</item>
+    </string-array>
+    <string-array name="pref_gps_distance_interval_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>500</item>
+    </string-array>
+
+    <string-array name="pref_gps_time_interval_entries">
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+    </string-array>
+    <string-array name="pref_gps_time_interval_values">
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1800</item>
+        <item>3600</item>
+    </string-array>
+
+    <string-array name="track_type_entries">
+        <item>Hiking</item>
+        <item>Walking</item>
+        <item>Cycling</item>
+        <item>Running</item>
+        <item>Mountain Biking</item>
+        <item>Downhill Skiing</item>
+        <item>Cross-Country Skiing</item>
+        <item>Snowboarding</item>
+        <item>Rowing</item>
+        <item>Driving</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="track_type_values">
+        <item>Hiking</item>
+        <item>Walking</item>
+        <item>Cycling</item>
+        <item>Running</item>
+        <item>Mountain Biking</item>
+        <item>Downhill Skiing</item>
+        <item>Cross-Country Skiing</item>
+        <item>Snowboarding</item>
+        <item>Rowing</item>
+        <item>Driving</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>
