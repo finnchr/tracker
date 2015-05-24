@@ -1,0 +1,36 @@
+# Problem description
+
+The purpose of my app is to create and save tracks. Details about the track and it's path are updated when
+a new coordinate is received from the GPS-sensor. The app has views that let you see details about the track;
+when it was created, distance, max/min altitude, duration and its path in Google maps. You can at any time
+upload the track to RunKeeper. You can also share the track with other apps, the track is then shared as a
+GPX-file.
+
+I've removed the API-keys (Google Maps and RunKeeper) before I uploaded the code to GitHub. I'm not sure if
+you'll need these or if you'll create your own keys. Please let me know if you need me to send you my keys.
+I've added placeholders for the keys so the code will compile. You'll find the placeholders in
+tracker/app/src/main/res/values/apikeys.xml
+
+# Mockups
+
+I've provided screenshots (in the folder Screenshots) of my app to demonstrate its functionality.
+Tracks.png: This is the first view you'll see when the app is started. This view lists all tracks and let
+you delelete tracks (click the trashcan icon) and create new tracks (click the plus icon on the action bar).
+You can also open settings by opening the options meny and select settings. Click on a track to select it.
+
+### TrackDetailsInfo.png
+When you select a track this is what you'll see. This view gives you information about the track, like when
+it was created, distance, duration, max/min altitude and when (if) it was uploaded to RunKeeper.
+
+### TrackDetailsMap.png
+This view shows the track in Google maps. You can swipe between this view and previous view.
+
+### Settings.png
+This shows the settings view. You can select interval (in seconds) between updates and distance between
+updates (in meteres).
+
+### TracksAndDetailInfo-land.png and TracksAndDetailMap-land.png
+Shows the track list and details view when in landscape mode. As you can see the list of tracks appear on
+the left hand side of the screen, while the details view appear on the right hand side.
+
+English is not my native language so please excuse me for any typos or poor language.
