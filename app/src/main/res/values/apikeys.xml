@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Google maps API key -->
+    <string name="googlemap_api_key"></string>
+
+
+    <!-- RunKeeper api keys -->
+    <string name="runkeeper_client_id"></string>
+    <string name="runkeeper_client_secret"></string>
+    <string name="runkeeper_grant_type">authorization_code</string>
+</resources>
