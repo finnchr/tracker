@@ -1,0 +1,12 @@
+The purpose of my app is to create and save tracks. Details about the track and it's path are updated when
+a new coordinate is received from the GPS-sensor. The app has views that let you see details about the track;
+when it was created, distance, max/min altitude, duration and its path in Google maps. You can at any time
+upload the track to RunKeeper. You can also share the track with other apps, the track is then shared as a
+GPX-file.
+
+I've removed the API-keys (Google Maps and RunKeeper) before I uploaded the code to GitHub. I'm not sure if
+you'll need these or if you'll create your own keys. Please let me know if you need me to send you my keys.
+I've added placeholders for the keys so the code will compile. You'll find the placeholders in
+tracker/app/src/main/res/values/apikeys.xml
+
+English is not my native language so please excuse me for any typos or poor language.
